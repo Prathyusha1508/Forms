@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            table,td,th,tr{
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Registration form</h2>
+        <form method = "post">
+        <label for = "username">username:</label>
+        <input type="text" id = "username" name = "uname" value = ""><br><br>
+        <label for = "password">Password:</label>
+        <input type = "password" id = "password" name = "pword" value = ""><br><br>
+        <input type = "submit" value = "submit">
+        </form>
+        <br>
+        <form>
+            <input type = "text" id = "fname" name = "first" placeholder = "Enter firstname"><br><br>
+            <input type = "text" name = "lname" placeholder = "Enter lastname"><br><br>
+            <input type = "checkbox" id = "check" name = "check">
+            <label for = "check">I have a car</label><br>
+            <input type = "checkbox" id = "check" name = "check">
+            <label for = "check">I have a bike</label><br><br>
+            <input type = "email" id = "mail" placeholder = "enter email id"><br><br>
+            <input type = "file" id = "fil" placeholder = "choose a file or browse"><br><br>
+            <label for = "google">Browse:</label>
+            <input type = "search" id = "google" name = "google"><br><br>
+            <input type = "month" id = "mon" placeholder = "month"><br><br>
+            <label for = "ran">Enter Age(25 to 60):</label><br><br>
+            <input type = "range" id = "ran" min = "25" max="60"><br>
+            <label for = "homepage">Enter url:</label>
+            <input type = "url" id = "homepage" name = "ur"><br><br>
+            <input type = "color" id = "col"><br><br>
+            <input type = "image" id = "im" name = "im" src = "" alt = "submit_image" height = "" width = "">
+            
+            <!-- <input type = "tel" id = "tell" name = "phone"> -->
+            <label for = "car" >Choose cars:</label>
+            <select name = "cars" id = "car">
+                <optgroup label = "swedish cars">
+                    <option value = "volvo">volvo</option>
+                    <option value = "saab">saab</option>
+                </optgroup>
+                <optgroup label = "german cars">
+                    <option value = "bmw">BMW</option>
+                    <option value = "benz">benz</option>
+                </optgroup>
+            </select>
+            <input type = "submit" value = "submit">
+        </form>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <th>name</th>
+                <th>rollno</th>
+                <th>class</th>
+            </tr>
+            <tr>
+                <td>bubu</td>
+                <td>0815</td>
+                <td>1st class</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
